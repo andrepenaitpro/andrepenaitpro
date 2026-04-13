@@ -1,0 +1,23 @@
+poll_interval_seconds: 60
+output_csv: listings.csv
+database_path: listings.db
+search:
+  keywords:
+    - handyman
+    - moving
+    - yard work
+  craigslist:
+    enabled: true
+    areas:
+      - sfbay
+      - sacramento
+      - losangeles
+  nextdoor:
+    enabled: false
+    note: "Use approved exports/API only. Direct scraping may violate Terms."
+  facebook:
+    enabled: false
+    note: "Use approved exports/API only. Direct scraping may violate Terms."
+notifications:
+  email: true
+  sms: false
